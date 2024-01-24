@@ -1,22 +1,38 @@
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
-import ExploreContainer from '../components/ExploreContainer';
-import './Tab2.css';
+import React from "react";
+import {
+  IonContent,
+  IonHeader,
+  IonPage,
+  IonTitle,
+  IonToolbar,
+  IonCard,
+  IonCardHeader,
+  IonCardTitle,
+  IonCardContent,
+} from "@ionic/react";
+import Create from "./../components/create/create";
 
 const Tab2: React.FC = () => {
   return (
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonTitle>Tab 2</IonTitle>
+          <IonTitle className="ion-text-center">Asistencia</IonTitle>
         </IonToolbar>
       </IonHeader>
-      <IonContent fullscreen>
-        <IonHeader collapse="condense">
-          <IonToolbar>
-            <IonTitle size="large">Tab 2</IonTitle>
-          </IonToolbar>
-        </IonHeader>
-        <ExploreContainer name="Tab 2 page" />
+      <IonContent
+        fullscreen
+        className="ion-padding"
+        style={{ backgroundColor: "blue" }}
+      >
+        <IonCard>
+          <IonCardHeader>
+            <IonCardTitle className="ion-text-center">Registro</IonCardTitle>
+          </IonCardHeader>
+          <IonCardContent>
+            <Create />
+          </IonCardContent>
+        </IonCard>
       </IonContent>
     </IonPage>
   );

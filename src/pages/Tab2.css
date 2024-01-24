@@ -1,0 +1,19 @@
+.custom-card {
+  margin: 20px;
+  padding: 15px;
+}
+
+.custom-header {
+  background-color: #ccccccaa;
+  color: #819ad736;
+}
+
+.custom-subtitle {
+  color: #ca8b8bc8;
+}
+
+.custom-button {
+  margin-top: 20px;
+  background-color: #555;
+  color: #0dccea;
+}
