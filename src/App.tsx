@@ -37,11 +37,11 @@ import "@ionic/react/css/display.css";
 
 /* Theme variables */
 import "./theme/variables.css";
-
+import "./pages/Tab1.css";
 setupIonicReact();
 
 const App: React.FC = () => (
-  <IonApp>
+  <IonApp className="main-page">
     <IonReactRouter>
       <IonTabs>
         <IonRouterOutlet>

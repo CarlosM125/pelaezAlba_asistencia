@@ -21,7 +21,7 @@ const Tab3: React.FC = () => {
         </IonToolbar>
       </IonHeader>
       <IonContent>
-        <IonList>
+        <IonList style={{ backgroundColor: "#f6ceec" }}>
           <IonItem lines="none" className="ion-text-center">
             <h3>Usuarios registrados:</h3>
           </IonItem>

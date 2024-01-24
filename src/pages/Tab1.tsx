@@ -11,11 +11,11 @@ import {
   IonCol,
 } from "@ionic/react";
 
-import Login from "../components/login/login";
+import Login from "../components/Login/Login";
 
 const Tab1: React.FC = () => {
   return (
-    <IonPage>
+    <IonPage className="main-page">
       <IonHeader>
         <IonToolbar>
           <IonTitle className="ion-text-center">DESARROLLO MOVIL</IonTitle>

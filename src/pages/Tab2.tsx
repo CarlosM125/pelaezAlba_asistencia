@@ -14,9 +14,9 @@ import Create from "./../components/create/create";
 
 const Tab2: React.FC = () => {
   return (
-    <IonPage>
+    <IonPage className="header">
       <IonHeader>
-        <IonToolbar>
+        <IonToolbar style={{ backgroundColor: "#f6ceec" }}>
           <IonTitle className="ion-text-center">Asistencia</IonTitle>
         </IonToolbar>
       </IonHeader>
@@ -25,9 +25,9 @@ const Tab2: React.FC = () => {
         className="ion-padding"
         style={{ backgroundColor: "blue" }}
       >
-        <IonCard>
-          <IonCardHeader>
-            <IonCardTitle className="ion-text-center">Registro</IonCardTitle>
+        <IonCard style={{ backgroundColor: "#f6ceec" }}>
+          <IonCardHeader className="header">
+            <IonCardTitle style={{ color: "black" }}>Registro</IonCardTitle>
           </IonCardHeader>
           <IonCardContent>
             <Create />
